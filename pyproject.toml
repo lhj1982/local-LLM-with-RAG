@@ -2,8 +2,8 @@
 name = "local-llm-with-rag"
 version = "0.1.0"
 description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.12"
+readme = "readme.md"
+requires-python = ">=3.12,<4.0"
 dependencies = [
     "chromadb==0.6.3",
     "langchain==0.3.18",
@@ -15,3 +15,5 @@ dependencies = [
     "tqdm==4.67.1",
     "watchdog==6.0.0",
 ]
+[tool.poetry]
+package-mode = false
